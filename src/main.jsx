@@ -6,7 +6,7 @@ import { HashRouter } from "react-router-dom";
 import { NameProvider } from "./contexts/nameContext.jsx";
 
 createRoot(document.getElementById("root")).render(
-  //<StrictMode>
+  <StrictMode>
   <NameProvider>
   <HashRouter future={{
     v7_startTransition: true,
@@ -15,5 +15,5 @@ createRoot(document.getElementById("root")).render(
     <AppRouter />
   </HashRouter>
   </NameProvider>
-  //</StrictMode>,
+  </StrictMode>,
 );
