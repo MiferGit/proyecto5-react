@@ -1,0 +1,143 @@
+.details__container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 1em;
+  margin-top: 1em;
+}
+
+.details__box-picture {
+  background-image: url("../assets/image/a.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 1em;
+}
+
+.details__box-name {
+  font-family: "Pokemon Solid", sans-serif;
+  text-shadow: 2px 3px 3px rgba(7, 7, 7, 0.863);
+  font-size: 3.9em;
+  color: #e6bb00;
+  margin-top: 5em;
+  text-transform: capitalize;
+}
+
+.details__box-num {
+  font-family: "Pokemon Solid", sans-serif;
+  font-size: 2.4em;
+  color: rgb(245, 242, 242);
+  text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.863);
+}
+
+@media (max-width: 600px) {
+  .details__box-name {
+    font-size: 1.5em;
+  }
+  .details__box-num {
+    font-size: 1em;
+  }
+}
+
+.details__box-img {
+  width: 55%;
+  display: flex;
+  padding: 1em;
+}
+
+.details__container-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1em;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.details__subtitles {
+  font-family: "Pokemon Solid", sans-serif;
+  font-size: 1.3em;
+  text-shadow: 1.5px 1.3px 1px rgba(0, 0, 0, 0.863);
+  text-align: center;
+  color: rgb(230, 187, 0);
+  padding-bottom: .3em;
+}
+
+.details__full-item {
+  text-align: left;
+  font-weight: 600;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.089);
+  background-color: #e0e0e0f1;
+  border-radius: 0.5em;
+  margin-top: 0.25em;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  border-radius: .5em;
+}
+
+.hp {
+  background: linear-gradient(40deg, rgb(39, 230, 39), green, rgba(10, 54, 10, 0.959))
+}
+
+.ataque {
+    background: linear-gradient(40deg, rgb(189, 30, 8), rgb(180, 22, 22), rgba(10, 54, 10, 0.959))
+}
+
+.defensa {
+    background: linear-gradient(40deg, rgb(72, 218, 198), rgb(29, 181, 207), rgba(10, 54, 10, 0.959))
+}
+
+.velocidad {
+    background: linear-gradient(40deg, rgb(65, 56, 196), rgb(38, 0, 128), rgba(10, 54, 10, 0.959))
+}
+
+.details__subcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.details__subtitle-run {
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+
+  .details__subtitle-way {
+    font-weight: 500;
+    
+  }
+
+.details__moves {
+  background-image: url("../assets/image/2.jpeg");
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  color: #ffffffd5;
+  border: 6px double #dbd2d2;
+  border-radius: 0.6em;
+  margin: 1em 0 2em 0 ;
+  text-align: left;
+  text-transform: capitalize;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+
+ 
+}
+
+@media (max-width: 400px) {
+  .details__moves {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    font-size: 0.7em;
+  }
+}
+
+
