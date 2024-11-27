@@ -67,7 +67,7 @@ function Pokedex() {
             Bienvenido <span className="pokdex__name">{name}</span>
           </h2>
           <p className="pokedex__tex">
-            ¡Aqui podras encontrar tu pokemon favorito!
+            ¡Aqui podras encontrar tu pokémon favorito!
           </p>
         </div>
 

@@ -24,7 +24,7 @@
     &:hover {
       transition: 0.2s;
       background-image: url("../assets/image/quare.gif");
-      opacity: 0.6;
+      opacity: 0.7;
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
