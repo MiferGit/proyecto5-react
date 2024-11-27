@@ -1,12 +1,12 @@
 .home {
-  /* max-width: 1024px; */
-  width: 100%;
-  height: 100vh;
-  margin: 0 auto;
   background-image: url("../assets/image/Pokemon.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 1024px;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
   display: grid;
   place-content: center;
 }

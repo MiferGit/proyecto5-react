@@ -14,7 +14,7 @@ function Search({ handleSearch }) {
     <div className="search">
       <div className="search__input">
         <FaSearchengin />
-        <input type="text" placeholder="Buscar pokemon..." ref={inputRef} />
+        <input className="search__input-inner" type="text" placeholder="Buscar pokemon..." ref={inputRef} />
       </div>
       <button className="search__btn" onClick={onSearch}>Buscar</button>
     </div>
