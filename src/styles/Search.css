@@ -1,5 +1,5 @@
 .search {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
@@ -29,14 +29,14 @@
   }
   
   .search__btn {
+    border: transparent;
+    border-radius: 0 4px 4px 0;
+    padding: 0.5em .3em;
     background-color: rgba(175, 26, 26, 0.945);
     color: #fff;
     text-shadow: 1px 1px 2px black;
     font-family: "Pokemon Solid", sans-serif;
     letter-spacing: 0.02em;
-    border: transparent;
-    border-radius: 0 4px 4px 0;
-    padding: 0.1em .5em;
     cursor: pointer;
     &:hover {
       background-color: #ee3131;
