@@ -46,7 +46,7 @@ function Home() {
           <>
             <div className="home__exit">
               <p className="home__text">
-                ¡Continuemos con tu viaje! Ve a tu{" "}
+                ¡Continuemos con tu viaje! 👉 {''}
                 <Link to="/pokedex" className="home__link">
                   Pokedex
                 </Link>
