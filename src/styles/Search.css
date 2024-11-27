@@ -1,8 +1,7 @@
 .search {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap:wrap;
+  
   }
   
   .search__input {
@@ -31,7 +30,7 @@
   .search__btn {
     border: transparent;
     border-radius: 0 4px 4px 0;
-    padding: 0.5em .3em;
+    padding: 0.1em .3em;
     background-color: rgba(175, 26, 26, 0.945);
     color: #fff;
     text-shadow: 1px 1px 2px black;
@@ -40,5 +39,16 @@
     cursor: pointer;
     &:hover {
       background-color: #ee3131;
+    }
+  }
+
+
+  @media (max-width: 500px) {
+  
+    .search__input-inner{
+      /* display: flex;
+      justify-content: center; */
+      width: 100px;
+      font-size: .7em;
     }
   }
