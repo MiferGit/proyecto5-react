@@ -6,8 +6,8 @@
   .poke__card {
     max-width: 100%;
     width: 100%;
-    color: white;
-    background-image: url("./assets/image/2.jpeg");
+    color: rgb(255, 255, 255);
+    background-image: url("../assets/image/2.jpeg");
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
