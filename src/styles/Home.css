@@ -49,7 +49,7 @@
 .home__btn {
   font-family: "Pokemon Solid", sans-serif;
   text-shadow: 1px 1px 2px black;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.03em;
   background-color: #ec3030f1;
   box-shadow: 0px 0px 10px #000000 inset;
   color: #ffffff;
@@ -98,5 +98,10 @@
   
   .home__input {
     width: 150px;
+  }
+
+  .home__btn {
+    padding: 0.3em .6em;
+    font-size: 13px;
   }
 }
