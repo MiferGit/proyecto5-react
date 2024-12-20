@@ -48,7 +48,7 @@ function Home() {
               <p className="home__text">
                 ¡Continuemos con tu viaje! 👉 {''}
                 <Link to="/pokedex" className="home__link">
-                  Pokedex
+                 Pokédex
                 </Link>
               </p>
               <button className="home__btn btn--radius" onClick={clearName}>
